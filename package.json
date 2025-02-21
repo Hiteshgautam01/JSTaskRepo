@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "axios": "^1.7.9",
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  },
+  "scripts": {
+    "test:students": "mocha -r ts-node/register -r test/setup.ts 'test/students/**/*.test.ts' --timeout 10000"
+  }
+}
